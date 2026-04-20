@@ -1,0 +1,5 @@
+homepage: "https://www.afilio.com.br"
+documentation: "https://github.com/betconnecthub/gtm-betconnect-mastertag"
+versions:
+  - sha: 
+    changeNotes: "Version 1.0"
