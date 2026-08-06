@@ -1,9 +1,10 @@
-﻿﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
 https://developers.google.com/tag-manager/gallery-tos (or such other URL as
 Google may provide), as modified from time to time.
+
 
 ___INFO___
 
@@ -72,7 +73,7 @@ log('data =', data);
 var id_campanha = makeString(data.id_campanha);
 var type = makeString(data.type);
 
-var url = 'https://m.afilio.com.br/v3/' + id_campanha + '/' + type;
+var url = 'https://m.betconnect.com.br/v3' + '/' + id_campanha + '/' + type;
 
 //Chame data.gtmOnSuccess depois que a tag for concluída.
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
@@ -113,7 +114,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://m.afilio.com.br/"
+                "string": "https://m.betconnect.com.br/"
               }
             ]
           }
@@ -147,5 +148,3 @@ scenarios:
 ___NOTES___
 
 Created on 16/03/2026, 12:01:50
-
-
