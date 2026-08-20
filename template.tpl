@@ -67,11 +67,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const log = require('logToConsole');
 const makeString = require('makeString');
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
 log('data =', data);
 
-var id_campanha = makeString(data.id_campanha);
-var type = makeString(data.type);
+var id_campanha = encodeUriComponent(makeString(data.id_campanha));
+var type = encodeUriComponent(makeString(data.type));
 
 var url = 'https://m.betconnect.com.br/v3' + '/' + id_campanha + '/' + type;
 
