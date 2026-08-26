@@ -1,5 +1,5 @@
 homepage: "https://betconnect.com.br/"
-documentation: "https://https://github.com/betconnecthub/bconnect-mastertag/"
+documentation: "https://github.com/betconnecthub/bconnect-mastertag/"
 versions:
   - sha: de7583f85587f21a73e0c56399265f2152258f3a
     changeNotes: "Version 1.0"
